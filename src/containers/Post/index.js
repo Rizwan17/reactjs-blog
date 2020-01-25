@@ -3,6 +3,7 @@ import './style.css';
 import Card from '../../components/UI/Card';
 import BlogPost from '../../components/BlogPost';
 import Sidebar from '../../components/Sidebar';
+import Layout from '../../components/Layout';
 
 /**
 * @author
@@ -15,10 +16,9 @@ const Post = (props) => {
 
 
   return(
-    <section className="container">
-        <BlogPost {...props} />
-        <Sidebar {...props} />
-    </section>
+        <Layout>
+          <BlogPost {...props} />
+        </Layout>
    )
 
  }
