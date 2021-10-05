@@ -19,6 +19,8 @@ function App() {
         <Route path="/contact-us"  component={ContactUS}/>
         <Route path="/post/:slug" component={Post} />
 
+        {/* I am trying to learn forking, plz accept */}
+
         
       </div>
     </Router>
